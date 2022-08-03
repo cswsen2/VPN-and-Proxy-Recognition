@@ -17,11 +17,9 @@ def load_info():
                  "Time_Zone: " + response["location"]['time_zone'] + "\n")
 
 
-api = "https://vpnapi.io/api/"+ip+"?key=bb9a8748de52434dba5d5238c73fc4f3"
-
-
-response = requests.get(api).json()
-print(response)
+# api = "https://vpnapi.io/api/"+ip+"?key=bb9a8748de52434dba5d5238c73fc4f3"
+# response = requests.get(api).json()
+# print(response)
 
 window = Tk()
 window.title("VPN proxy detetction app")
